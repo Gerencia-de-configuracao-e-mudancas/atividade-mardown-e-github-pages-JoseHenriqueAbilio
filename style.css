@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Ultrakill;
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(44, 44, 44);
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+    float: left;
+    padding: 5px;
+}
+
+ul li a {
+  display: block;
+  color: rgb(255, 75, 75);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Ultrakill;
+  font-size: ;
+}
